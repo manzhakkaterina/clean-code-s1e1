@@ -1,4 +1,4 @@
-/* Basic Style */
+`/* Basic Style */
 .body {
   background-color: #f8f8f8;
   color: #333;
@@ -50,8 +50,7 @@ ul {
   padding: 0px;
 }
 
-li, 
-h3 {
+li {
   list-style: none;
 }
 
@@ -104,6 +103,7 @@ button {
 }
 
 /* New Task */
+.h3-title, 
 .new-task-label {
   display: block;
   margin: 0 0 20px;
