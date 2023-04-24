@@ -9,21 +9,22 @@
             media="screen" charset="utf-8">
   </head>
   <body class="body">
-    <div class="matrix">
+    <header class="matrix">
       <img class="matrix-img" src="./eisenhower-matrix.jpg">
       <a class="matrix-info" 
          href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details?
       </a>
-    </div>
-    <div class="main-element">
-      <p id="top-section-add">
-        <label for="new-task" class="new-task-label">Add Item</label>
+    </header>
+    <main class="main-element">
+      <section id="top-section-add">
+        <h3 class="h3-title">Add Item</h3>
         <div class="task-wrapper">
-          <input id="new-task"class="task" type="text">
+          <input id="new-task" class="task" type="text">
           <button class="button">Add</button>
         </div>
-      </p>
+      </section>
+	  <section>
       <h3 class="h3-title">Todo</h3>
       <ul id="incomplete-tasks">
         <li class="li-task">
@@ -45,19 +46,22 @@
           </button>
         </li>
       </ul>
-      <h3 class="h3-title">Completed</h3>
-      <ul id="completed-tasks">
-        <li class="li-task">
-          <input type="checkbox" class="li-task-checkbox" checked>
-          <label class="task-label">See the Doctor</label>
-          <input type="text" class="task">
-          <button class="button edit">Edit</button>
-          <button class="button delete">
-            <img class="img-remove" src="./remove.svg">
-          </button>
-        </li>
-      </ul>
-    </div>
+	  </section>
+	  <section>
+        <h3 class="h3-title">Completed</h3>
+        <ul id="completed-tasks">
+          <li class="li-task">
+            <input type="checkbox" class="li-task-checkbox" checked>
+            <label class="task-label">See the Doctor</label>
+            <input type="text" class="task">
+            <button class="button edit">Edit</button>
+            <button class="button delete">
+              <img class="img-remove" src="./remove.svg">
+            </button>
+          </li>
+        </ul>
+	  </section>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
